@@ -21,17 +21,17 @@ make linux
 
 mingw32-make web
 ## Примеры работы проекта
-Для демонстрации работы портированной игры прилагаются примеры запуска на различных платформах:
-Автотесты
+Для демонстрации работы портированной игры прилагаются примеры запуска на различных платформах:\
+Автотесты\
 ![Glg7jKYLojE](https://github.com/user-attachments/assets/00a4bd4d-99f4-431c-8694-c0fbd345457a)
 
-Windows
+Windows\
 ![изображение](https://github.com/user-attachments/assets/dd61c354-fd18-4060-bd49-b59edb1edb43)
 
-Linux
+Linux\
 ![изображение](https://github.com/user-attachments/assets/78cb495d-30c1-412d-a516-18a9df5514af)
 
-Web
+Web\
 ![изображение](https://github.com/user-attachments/assets/e313c568-a0f6-47b2-9314-13793b012efd)
 
 
