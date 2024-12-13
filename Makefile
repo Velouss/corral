@@ -9,8 +9,6 @@ LINUX_OUTPUT=`pwd`/output/linux
 WINDOWS_OPTIONS=--onefile --console
 LINUX_OPTIONS=--onefile --console
 CLEANING_FILE=clear.py
-BSD_PRE_PRE_FLAGS=LD_LIBRARY_PATH=/usr/pkg/include/python3.12/:/usr/pkg/lib/
-BSD_PRE_FLAGS=-Os -I/usr/pkg/include/python3.12 -I/usr/pkg/include/python3.12 -L/usr/pkg/lib  -lintl -lpthread -lcrypt -lutil -lm
 
 all: windows linux web
 
