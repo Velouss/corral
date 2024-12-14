@@ -1,0 +1,12 @@
+                          CORRAL
+                    CREATIVE COMPUTING
+                  MORRISTOWN, NEW JERSEY
+
+
+
+  YOU ARE THE COWBOY.  GO CATCH YOUR HORSE IN THE CORRAL!
+DO YOU WANT FULL INSTRUCTIONS? 
+AFTER '?' TYPE IN DIGIT FROM 1 TO 5 FOR COWBOY'S NEXT MOVE
+
+ 0            IC            H       I                 ? 
+ 1            I  C           H      I                 ? 
