@@ -4,7 +4,7 @@ from multiprocessing import Process
 from time import sleep
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import main  # Подключение вашей игры "CORRAL"
+import corral  # Подключение вашей игры "CORRAL"
 
 app = Flask(__name__)
 
@@ -50,11 +50,11 @@ def background_worker():
         message = ' '.join(map(str, args)) + end
         write_f('print.txt', message)
 
-    main.input = input_handler  # Указываем, что `input` должен использовать `prompt`
-    main.print = custom_print
+    corral.input = input_handler  # Указываем, что `input` должен использовать `prompt`
+    corral.print = custom_print
 
-    main.instruction()  # Вызов инструкций перед началом игры
-    main.main()
+    corral.instruction()  # Вызов инструкций перед началом игры
+    corral.main()
 
 def read_f(file):
     sleep(0.5)
